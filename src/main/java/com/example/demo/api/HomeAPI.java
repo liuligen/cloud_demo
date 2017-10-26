@@ -14,7 +14,7 @@ public class HomeAPI {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String home(){
-        return "hello";
+        return "hello-world";
     }
 
 }
